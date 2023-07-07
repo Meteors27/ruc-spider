@@ -4,7 +4,8 @@
 此脚本可用于持久化抓取各种数据，比如`Demo.py`就是一个成绩自动推送脚本。
 它利用了`RucSpider.py`的登录，间隔固定时间查询成绩是否有更新，并通过手机Bark软件做到消息推送。（Bark仅有iPhone用户可用）
 
-当然，它也可以用以制作抢课脚本等工具，你可以发挥你的想象力，在此repo上加以改进，并贡献在开源社区中。
+当然，它也可以用以制作抢课脚本等工具。譬如，你可以利用github的Actions功能，把github作为你的轻量爬虫服务器[(zhr-action-demo)](https://github.com/upupming/zhr-action-demo)；你也可以利用钉钉聊天机器人，做到实时消息推送[(zju-score-push-template)](https://github.com/PeiPei233/zju-score-push-template)……
+你可以发挥你的想象力，在此repo上加以改进，并贡献在开源社区中。
 欢迎fork或star本项目。
 
 ## 登录原理
